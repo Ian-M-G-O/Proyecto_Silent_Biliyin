@@ -20,6 +20,7 @@ class MascotaInfolist
                 TextEntry::make('edad_aproximada')
                     ->placeholder('-'),
                 TextEntry::make('tamano')
+                    ->label('Tamaño')
                     ->placeholder('-'),
                 TextEntry::make('color')
                     ->placeholder('-'),
